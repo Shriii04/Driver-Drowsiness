@@ -8,7 +8,7 @@ Facial landmark detection refers to the process of detecting and locating key po
 
 The 68 facial landmark detection algorithm is a computer vision technique for locating specific points on the face, such as the corners of the mouth, the tip of the nose, and the edges of the eyebrows. This is typically done using a machine learning model, such as a deep neural network, that has been trained on a large dataset of face images. During the detection process, an input image of a face is fed into the model, which outputs the x and y coordinates of each landmark point. These coordinates can then be used to create a visual representation of the face, with the landmark points marked on the image. The exact workings of the model depend on the specific architecture used, but in general, it involves several stages of processing, such as feature extraction, convolution, pooling, and non-linear activation, to produce the final output.
 
-# Changes to be made in Code for sucessfull running
+# Changes to be made in Code for successfull running
 
 install all the necessary libraries for eg: cv2,dlibs and many more
 predict = dlib.shape_predictor(" ") here in " " put the location of dat file (shape_predictor_68_face_landmarks.dat)
