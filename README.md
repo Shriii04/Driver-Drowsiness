@@ -11,6 +11,7 @@ The 68 facial landmark detection algorithm is a computer vision technique for lo
 # Changes to be made in Code for successfull running
 
 install all the necessary libraries for eg: cv2,dlibs and many more
+
 predict = dlib.shape_predictor(" ") here in " " put the location of dat file (shape_predictor_68_face_landmarks.dat)
 
 Link for dat file : https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
